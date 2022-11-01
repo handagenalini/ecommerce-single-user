@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Project</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="header">
+      <a href="./home.html" class="anchor">HOME</a>
+      <a href="/" class="anchor">STORE</a>
+      <a href="./about.html" class="anchor">ABOUT</a>
+      <a href="./order.html" class="anchor">ORDERS</a>
+      <button class="seecart" id="mycart">Cart</button>
+    </div>
+    <div class="subHeader">
+      <h1>The Generics</h1>
+    </div>
+    <div class ="p">
+      band, (from Middle French bande, “troop”), in music, an ensemble of musicians playing chiefly
+       woodwind, brass, and percussion instruments, in contradistinction to an orchestra, which contains
+        stringed instruments. Apart from this specific designation, the word band has wide vernacular application,
+         from generalized usage (as in “dance band” and “jazz band”) to the very specific (as in “harmonica band,
+         ” “brass band,” and “string band”). The term was first used in England to apply
+          to the “king’s band” of 24 violins at the court of Charles II (reigned 1660–85), a group modelled
+           on Louis XIV’s famous group of violins.
+    </div>
+    
+        <div class="cart">
+          <button id="cartbtn" class="seecart">See the cart</button>
+        </div>
+        <!-- Cart-HTML -->
+    
+        <div class="popup-container" id="container">
+          <div class="popup">
+            <section class="container">
+              <h2 class="section-header">CART</h2>
+              <button id="cl">&times;</button>
+              <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+              <div class="cart-row">
+                <div class="cart-item cart-column">
+                  <img
+                    class="cart-item-image"
+                    src="./img/Album 4.png"
+                    width="100"
+                    height="100"
+                  />
+                  <span class="cart-item-title">Album 4</span>
+                </div>
+                <span class="cart-price cart-column">$19.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1" />
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                  </div>
+                </div>
+                <div class="cart-row">
+                  <div class="cart-item cart-column">
+                    <img
+                      class="cart-item-image"
+                      src="./img/Album 3.png"
+                      width="100"
+                      height="100"/>
+                      <span class="cart-item-title">Album 3</span>
+                    </div>
+                    <span class="cart-price cart-column">$9.99</span>
+                    <div class="cart-quantity cart-column">
+                      <input class="cart-quantity-input" type="number" value="2" />
+                      <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-total">
+                  <strong class="cart-total-title">Total</strong>
+                  <span class="cart-total-price">$650</span>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="button">
+                  PURCHASE
+                </button>
+              </section>
+            </div>
+          </div>
+          <br />
+          <div class="footer">
+            <div class="footer1"><h1>The Generics</h1></div>
+            <div class="footer2">
+              <ul class="footer2">
+                <a href="https://www.youtube.com">
+                  <img
+                    src="https://www.bing.com/th?id=OIP.3yLsbW3kJ5zU9-957TR_mQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2"
+                    alt="Youtube"
+                    height="25px"
+                    width="25px"
+                  />
+                </a>
+                <a href="https://spotify.com">
+                  <imgsrc="https://www.bing.com/th?id=OIP.Lrxsd7qE1xlNSo9qczRXHgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2"
+                  alt="Spotify"
+                  height="25px"
+                  width="25px"
+                />
+              </a>
+              <a href="https://facebook.com">
+                <img
+                  src="https://www.bing.com/th?id=OIP.bOdxtMx_BX8ICFq2szS3HwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2"
+                  alt="facebook"
+                  height="25px"
+                  width="25px"
+                />
+              </a>
+            </ul>
+          </div>
+        </div>
+        <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+      </body>
+    </html>
+      
+      
